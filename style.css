@@ -871,135 +871,13 @@ p.footer-info a {
 @media (max-width: 575.98px) { }  
 
 
-@media (min-width: 576px) and (max-width: 698px) {   
-    body {
-        margin: 0;
-    }
-
-    :root {
-        /* GRID2 (PICTURES) SETTINGS*/
-        --OUTTER-RADIUS-GRID2: 150px;
-        --INNER-RADIUS-GRID2: 100px;
-
-        --BORDER-FOR-SECTION: none;
-        --MARGIN-FOR-SECTION: 7px;
-    }
-
-    .logo {
-        width: 110px;
-        height: 110px;
-    }
-
-    .donate h2::before {
-        top: 20px;
-    }
-
-
-    .header__ul li {
-        font-size: .75rem;
-    }
-
-    .donate h2{
-        font-size: .8rem;
-        margin-right: 5px;
-    }
-
-    .h2__about-us {
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-    }
-    
-
-    .h2__about-us {
-        font-size: 2.5rem;
-        font-weight: bold;
-    }    
-        
-    .p__about-us {
-        margin-top: .5rem;
-        font-size: .7rem;
-    }
-
-    .f-forest:hover::before,
-    .f-mountain-dark:hover::before,
-    .f-machu:hover::before
-    {
-        font-size: 3rem;
-    }
-
-    .f-green:hover::before,
-    .f-india:hover::before,
-    .f-stan:hover::before
-    {
-        font-size: 2.3rem;
-    }
-
-    .partner__div {
-        width: calc(90vw / 1.5);
-    }
-
-    .partner-info {
-        font-size: .7rem;
-    }
-
-    .footer-about-us {
-        font-size: .7rem;
-    }
-
-    .partnership__h2 {
-        font-size: 1.7rem;
-    }
-
-    .footer__h2 {
-        font-size: .85rem;
-    }
-
-    .footer-contact i {
-        display: block;
-    }
-
-    .footer-div-contact{
-        justify-content: center;
-    }
-
-    .icon1 {
-        font-size: 1rem;
-    }
-
-    #contact {
-        flex-direction: row;
-    }
-
-
-    p.footer-contact {
-        font-size: .54rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .footer-quicks,
-    p.footer-info a {
-        font-size: .8rem;
-    }
-
-
-
-    .copy-right {
-        font-size: .8rem;
-    }
-}
-
-
 
 /* // Small devices (landscape phones, less than 768px)  
 toto je moje custom rozlíšenie, pretože na nete písali,
 že väčšinou sa resolution používa od 720px, tak pre istotu
 som dal do zálohy ešte 21px (preto začíname od 699px)
 */ 
-@media (min-width: 699px) and (max-width: 767.98px) { 
+@media (min-width: 300px) and (max-width: 767.98px) { 
     body {
         margin: 0 5px;
     }
