@@ -275,7 +275,7 @@ header {
 
 /* ][ ABOUT SECTION*/
 #about {
-    height: 100vh;
+    height: 90vh;
     width: auto;
     border: var(--BORDER-FOR-SECTION);
     background-image: url(./photos/mountains1.jpeg);
